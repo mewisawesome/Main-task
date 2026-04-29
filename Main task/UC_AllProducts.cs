@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace Main_task
 {
-    public partial class AllProducts : UserControl
+    public partial class UC_AllProducts : UserControl
     {
-        public AllProducts()
+        public UC_AllProducts()
         {
             InitializeComponent();
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textID_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
