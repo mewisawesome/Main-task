@@ -44,7 +44,7 @@ namespace Main_task
 
         private void btnHome_Click(object sender, EventArgs e)
         {
-
+            ShowScreen(new UC_Home());
         }
 
         private void btnProducts_Click(object sender, EventArgs e)
@@ -65,7 +65,7 @@ namespace Main_task
 
         private void btnPay_Click(object sender, EventArgs e)
         {
-
+            ShowScreen(new UC_Checkout());
         }
     }
 }

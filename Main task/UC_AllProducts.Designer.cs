@@ -59,7 +59,7 @@
             this.Product,
             this.Price,
             this.Quanity});
-            this.dataGridView1.Location = new System.Drawing.Point(261, 74);
+            this.dataGridView1.Location = new System.Drawing.Point(210, 14);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(445, 376);
@@ -105,7 +105,7 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(44, 74);
+            this.groupBox1.Location = new System.Drawing.Point(3, 14);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(211, 328);
             this.groupBox1.TabIndex = 2;
@@ -207,13 +207,13 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Product";
             // 
-            // AllProducts
+            // UC_AllProducts
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.groupBox1);
-            this.Name = "AllProducts";
+            this.Name = "UC_AllProducts";
             this.Size = new System.Drawing.Size(726, 477);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox1.ResumeLayout(false);
