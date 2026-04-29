@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace Main_task
 {
-    public partial class UC_Checkout : UserControl
+    public partial class UC_OurTopSellers : UserControl
     {
-        public UC_Checkout()
+        public UC_OurTopSellers()
         {
             InitializeComponent();
-        }
-
-        private void btnPay2_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
