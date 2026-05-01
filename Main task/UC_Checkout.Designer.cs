@@ -28,12 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Product = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Price = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Quanity = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnPay2 = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.btnAdd2 = new System.Windows.Forms.Button();
             this.btnRemove2 = new System.Windows.Forms.Button();
@@ -47,64 +41,13 @@
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.btnPay2 = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.ID,
-            this.Product,
-            this.Price,
-            this.Quanity});
-            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(579, 432);
-            this.dataGridView1.TabIndex = 4;
-            // 
-            // ID
-            // 
-            this.ID.HeaderText = "ID";
-            this.ID.Name = "ID";
-            this.ID.ReadOnly = true;
-            // 
-            // Product
-            // 
-            this.Product.HeaderText = "Product";
-            this.Product.Name = "Product";
-            this.Product.ReadOnly = true;
-            this.Product.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Product.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            // 
-            // Price
-            // 
-            this.Price.HeaderText = "Price";
-            this.Price.Name = "Price";
-            this.Price.ReadOnly = true;
-            // 
-            // Quanity
-            // 
-            this.Quanity.HeaderText = "Quanity";
-            this.Quanity.Name = "Quanity";
-            this.Quanity.ReadOnly = true;
-            // 
-            // btnPay2
-            // 
-            this.btnPay2.Location = new System.Drawing.Point(578, 385);
-            this.btnPay2.Name = "btnPay2";
-            this.btnPay2.Size = new System.Drawing.Size(107, 59);
-            this.btnPay2.TabIndex = 5;
-            this.btnPay2.Text = "Pay";
-            this.btnPay2.UseVisualStyleBackColor = true;
-            this.btnPay2.Click += new System.EventHandler(this.btnPay2_Click);
             // 
             // btnAdd2
             // 
-            this.btnAdd2.Location = new System.Drawing.Point(453, 37);
+            this.btnAdd2.Location = new System.Drawing.Point(499, 436);
             this.btnAdd2.Name = "btnAdd2";
             this.btnAdd2.Size = new System.Drawing.Size(61, 23);
             this.btnAdd2.TabIndex = 7;
@@ -114,7 +57,7 @@
             // 
             // btnRemove2
             // 
-            this.btnRemove2.Location = new System.Drawing.Point(518, 37);
+            this.btnRemove2.Location = new System.Drawing.Point(335, 343);
             this.btnRemove2.Name = "btnRemove2";
             this.btnRemove2.Size = new System.Drawing.Size(61, 23);
             this.btnRemove2.TabIndex = 8;
@@ -211,11 +154,32 @@
             this.button11.Text = "Remove";
             this.button11.UseVisualStyleBackColor = true;
             // 
+            // btnPay2
+            // 
+            this.btnPay2.Location = new System.Drawing.Point(186, 320);
+            this.btnPay2.Name = "btnPay2";
+            this.btnPay2.Size = new System.Drawing.Size(107, 59);
+            this.btnPay2.TabIndex = 5;
+            this.btnPay2.Text = "Pay";
+            this.btnPay2.UseVisualStyleBackColor = true;
+            this.btnPay2.Click += new System.EventHandler(this.btnPay2_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.Location = new System.Drawing.Point(619, 25);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(611, 528);
+            this.panel1.TabIndex = 19;
+            // 
             // UC_Checkout
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.btnPay2);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.button11);
+            this.Controls.Add(this.btnRemove2);
+            this.Controls.Add(this.btnAdd2);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
@@ -225,25 +189,14 @@
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.btnRemove2);
-            this.Controls.Add(this.btnAdd2);
-            this.Controls.Add(this.btnPay2);
-            this.Controls.Add(this.dataGridView1);
             this.Name = "UC_Checkout";
-            this.Size = new System.Drawing.Size(768, 513);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Size = new System.Drawing.Size(1195, 513);
+            this.Load += new System.EventHandler(this.UC_Checkout_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Product;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Price;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Quanity;
-        private System.Windows.Forms.Button btnPay2;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.Button btnAdd2;
         private System.Windows.Forms.Button btnRemove2;
@@ -257,5 +210,7 @@
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button btnPay2;
+        private System.Windows.Forms.Panel panel1;
     }
 }
