@@ -78,7 +78,7 @@
             this.pnlPay.Location = new System.Drawing.Point(0, 0);
             this.pnlPay.Margin = new System.Windows.Forms.Padding(4);
             this.pnlPay.Name = "pnlPay";
-            this.pnlPay.Size = new System.Drawing.Size(800, 450);
+            this.pnlPay.Size = new System.Drawing.Size(856, 499);
             this.pnlPay.TabIndex = 2;
             // 
             // panel1
@@ -92,7 +92,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(168, 450);
+            this.panel1.Size = new System.Drawing.Size(168, 499);
             this.panel1.TabIndex = 1;
             // 
             // btnCheckout
@@ -140,7 +140,7 @@
             this.dataGridView1.Location = new System.Drawing.Point(175, 3);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(625, 444);
+            this.dataGridView1.Size = new System.Drawing.Size(669, 484);
             this.dataGridView1.TabIndex = 5;
             // 
             // ID
@@ -171,7 +171,7 @@
             // 
             // btnPay2
             // 
-            this.btnPay2.Location = new System.Drawing.Point(690, 379);
+            this.btnPay2.Location = new System.Drawing.Point(722, 415);
             this.btnPay2.Name = "btnPay2";
             this.btnPay2.Size = new System.Drawing.Size(107, 59);
             this.btnPay2.TabIndex = 6;
@@ -291,7 +291,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(856, 499);
             this.Controls.Add(this.pnlPay);
             this.Name = "PayArea";
             this.Text = "PayArea";

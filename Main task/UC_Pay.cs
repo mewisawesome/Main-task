@@ -19,7 +19,7 @@ namespace Main_task
 
         private void BtnGoBack_Click(object sender, EventArgs e)
         {
-            
+          
         }
     }
 }
