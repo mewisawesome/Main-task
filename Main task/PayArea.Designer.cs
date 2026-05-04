@@ -29,31 +29,31 @@
         private void InitializeComponent()
         {
             this.pnlPay = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.btnCheckout = new System.Windows.Forms.Button();
-            this.btnProducts = new System.Windows.Forms.Button();
-            this.btnHome = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.btnPay2 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Product = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Price = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Quanity = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnPay2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.btnCheckout = new System.Windows.Forms.Button();
+            this.btnProducts = new System.Windows.Forms.Button();
+            this.btnHome = new System.Windows.Forms.Button();
             this.pnlPay.SuspendLayout();
-            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlPay
@@ -80,6 +80,167 @@
             this.pnlPay.Name = "pnlPay";
             this.pnlPay.Size = new System.Drawing.Size(856, 499);
             this.pnlPay.TabIndex = 2;
+            // 
+            // button12
+            // 
+            this.button12.Location = new System.Drawing.Point(709, 332);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(61, 23);
+            this.button12.TabIndex = 21;
+            this.button12.Text = "Remove";
+            this.button12.UseVisualStyleBackColor = true;
+            // 
+            // button11
+            // 
+            this.button11.Location = new System.Drawing.Point(709, 275);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(61, 23);
+            this.button11.TabIndex = 20;
+            this.button11.Text = "Remove";
+            this.button11.UseVisualStyleBackColor = true;
+            // 
+            // button10
+            // 
+            this.button10.Location = new System.Drawing.Point(709, 211);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(61, 23);
+            this.button10.TabIndex = 19;
+            this.button10.Text = "Remove";
+            this.button10.UseVisualStyleBackColor = true;
+            // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(709, 154);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(61, 23);
+            this.button9.TabIndex = 18;
+            this.button9.Text = "Remove";
+            this.button9.UseVisualStyleBackColor = true;
+            // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(709, 99);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(61, 23);
+            this.button8.TabIndex = 17;
+            this.button8.Text = "Remove";
+            this.button8.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(709, 44);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(61, 23);
+            this.button7.TabIndex = 16;
+            this.button7.Text = "Remove";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(625, 332);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(61, 23);
+            this.button6.TabIndex = 15;
+            this.button6.Text = "Add";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(625, 275);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(61, 23);
+            this.button5.TabIndex = 14;
+            this.button5.Text = "Add";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(625, 211);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(61, 23);
+            this.button4.TabIndex = 13;
+            this.button4.Text = "Add";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(625, 154);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(61, 23);
+            this.button3.TabIndex = 12;
+            this.button3.Text = "Add";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(625, 99);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(61, 23);
+            this.button2.TabIndex = 11;
+            this.button2.Text = "Add";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(625, 44);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(61, 23);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "Add";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // btnPay2
+            // 
+            this.btnPay2.Location = new System.Drawing.Point(722, 415);
+            this.btnPay2.Name = "btnPay2";
+            this.btnPay2.Size = new System.Drawing.Size(107, 59);
+            this.btnPay2.TabIndex = 6;
+            this.btnPay2.Text = "Pay";
+            this.btnPay2.UseVisualStyleBackColor = true;
+            this.btnPay2.Click += new System.EventHandler(this.btnPay2_Click);
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ID,
+            this.Product,
+            this.Price,
+            this.Quanity});
+            this.dataGridView1.Location = new System.Drawing.Point(175, 3);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.Size = new System.Drawing.Size(669, 484);
+            this.dataGridView1.TabIndex = 5;
+         
+            // 
+            // ID
+            // 
+            this.ID.HeaderText = "ID";
+            this.ID.Name = "ID";
+            this.ID.ReadOnly = true;
+            // 
+            // Product
+            // 
+            this.Product.HeaderText = "Product";
+            this.Product.Name = "Product";
+            this.Product.ReadOnly = true;
+            this.Product.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Product.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            // 
+            // Price
+            // 
+            this.Price.HeaderText = "Price";
+            this.Price.Name = "Price";
+            this.Price.ReadOnly = true;
+            // 
+            // Quanity
+            // 
+            this.Quanity.HeaderText = "Quanity";
+            this.Quanity.Name = "Quanity";
+            this.Quanity.ReadOnly = true;
             // 
             // panel1
             // 
@@ -126,166 +287,7 @@
             this.btnHome.TabIndex = 0;
             this.btnHome.Text = "Home page";
             this.btnHome.UseVisualStyleBackColor = true;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.ID,
-            this.Product,
-            this.Price,
-            this.Quanity});
-            this.dataGridView1.Location = new System.Drawing.Point(175, 3);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(669, 484);
-            this.dataGridView1.TabIndex = 5;
-            // 
-            // ID
-            // 
-            this.ID.HeaderText = "ID";
-            this.ID.Name = "ID";
-            this.ID.ReadOnly = true;
-            // 
-            // Product
-            // 
-            this.Product.HeaderText = "Product";
-            this.Product.Name = "Product";
-            this.Product.ReadOnly = true;
-            this.Product.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Product.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            // 
-            // Price
-            // 
-            this.Price.HeaderText = "Price";
-            this.Price.Name = "Price";
-            this.Price.ReadOnly = true;
-            // 
-            // Quanity
-            // 
-            this.Quanity.HeaderText = "Quanity";
-            this.Quanity.Name = "Quanity";
-            this.Quanity.ReadOnly = true;
-            // 
-            // btnPay2
-            // 
-            this.btnPay2.Location = new System.Drawing.Point(722, 415);
-            this.btnPay2.Name = "btnPay2";
-            this.btnPay2.Size = new System.Drawing.Size(107, 59);
-            this.btnPay2.TabIndex = 6;
-            this.btnPay2.Text = "Pay";
-            this.btnPay2.UseVisualStyleBackColor = true;
-            this.btnPay2.Click += new System.EventHandler(this.btnPay2_Click);
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(625, 44);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(61, 23);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "Add";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(625, 99);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(61, 23);
-            this.button2.TabIndex = 11;
-            this.button2.Text = "Add";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(625, 154);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(61, 23);
-            this.button3.TabIndex = 12;
-            this.button3.Text = "Add";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(625, 211);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(61, 23);
-            this.button4.TabIndex = 13;
-            this.button4.Text = "Add";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(625, 275);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(61, 23);
-            this.button5.TabIndex = 14;
-            this.button5.Text = "Add";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            this.button6.Location = new System.Drawing.Point(625, 332);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(61, 23);
-            this.button6.TabIndex = 15;
-            this.button6.Text = "Add";
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // button7
-            // 
-            this.button7.Location = new System.Drawing.Point(709, 44);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(61, 23);
-            this.button7.TabIndex = 16;
-            this.button7.Text = "Remove";
-            this.button7.UseVisualStyleBackColor = true;
-            // 
-            // button8
-            // 
-            this.button8.Location = new System.Drawing.Point(709, 99);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(61, 23);
-            this.button8.TabIndex = 17;
-            this.button8.Text = "Remove";
-            this.button8.UseVisualStyleBackColor = true;
-            // 
-            // button9
-            // 
-            this.button9.Location = new System.Drawing.Point(709, 154);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(61, 23);
-            this.button9.TabIndex = 18;
-            this.button9.Text = "Remove";
-            this.button9.UseVisualStyleBackColor = true;
-            // 
-            // button10
-            // 
-            this.button10.Location = new System.Drawing.Point(709, 211);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(61, 23);
-            this.button10.TabIndex = 19;
-            this.button10.Text = "Remove";
-            this.button10.UseVisualStyleBackColor = true;
-            // 
-            // button11
-            // 
-            this.button11.Location = new System.Drawing.Point(709, 275);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(61, 23);
-            this.button11.TabIndex = 20;
-            this.button11.Text = "Remove";
-            this.button11.UseVisualStyleBackColor = true;
-            // 
-            // button12
-            // 
-            this.button12.Location = new System.Drawing.Point(709, 332);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(61, 23);
-            this.button12.TabIndex = 21;
-            this.button12.Text = "Remove";
-            this.button12.UseVisualStyleBackColor = true;
+            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
             // PayArea
             // 
@@ -297,8 +299,8 @@
             this.Text = "PayArea";
             this.Load += new System.EventHandler(this.PayArea_Load);
             this.pnlPay.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

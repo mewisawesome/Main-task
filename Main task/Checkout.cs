@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace Main_task
 {
-    public partial class UC_Pay : UserControl
+    public partial class Checkout : UserControl
     {
-        public UC_Pay()
+        public Checkout()
         {
             InitializeComponent();
-           
         }
-
-        private void BtnGoBack_Click(object sender, EventArgs e)
-        {
-            foreach (Control ctrl in panel1.Controls)
-            {
-                ctrl.Dispose();
-            }
-        }
-        
     }
 }

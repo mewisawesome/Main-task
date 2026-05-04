@@ -47,7 +47,20 @@ namespace Main_task
 
         private void btnPay2_Click(object sender, EventArgs e)
         {
-            ShowScreen(new UC_Pay());
+            BacktoPay f2 = new BacktoPay();
+            f2.Owner = this;
+            f2.StartPosition = FormStartPosition.Manual;
+            f2.Location = this.Location;
+            f2.Show();
+            this.Hide();
         }
+
+        private void btnHome_Click(object sender, EventArgs e)
+        {
+            this.Owner.Show();
+            this.Close();
+        }
+
+
     }
 }
