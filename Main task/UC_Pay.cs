@@ -20,11 +20,12 @@ namespace Main_task
 
         private void BtnGoBack_Click(object sender, EventArgs e)
         {
-            foreach (Control ctrl in panel1.Controls)
-            {
-                ctrl.Dispose();
-            }
+            
         }
-        
+
+        private void BtnBackToPay_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

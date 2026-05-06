@@ -47,12 +47,13 @@ namespace Main_task
 
         private void btnPay2_Click(object sender, EventArgs e)
         {
-            BacktoPay f2 = new BacktoPay();
+            Pay f2 = new Pay();
             f2.Owner = this;
             f2.StartPosition = FormStartPosition.Manual;
             f2.Location = this.Location;
             f2.Show();
             this.Hide();
+
         }
 
         private void btnHome_Click(object sender, EventArgs e)

@@ -19,7 +19,7 @@ namespace Main_task
 
         private void BacktoPay_Load(object sender, EventArgs e)
         {
-
+            ShowScreen(new UC_AllProducts());
         }
         private void ShowScreen(UserControl newScreen)
         {
@@ -31,6 +31,7 @@ namespace Main_task
             newScreen.Dock = DockStyle.Fill;
             panel1.Controls.Add(newScreen);
         }
+        
 
         private void btnHome_Click(object sender, EventArgs e)
         {

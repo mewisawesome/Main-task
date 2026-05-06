@@ -28,68 +28,57 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.BtnGoBack = new System.Windows.Forms.Button();
-            this.panel1.SuspendLayout();
+            this.label1 = new System.Windows.Forms.Label();
+            this.BtnBackToPay = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // panel1
+            // textBox1
             // 
-            this.panel1.Controls.Add(this.BtnGoBack);
-            this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(12, 3);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(540, 384);
-            this.panel1.TabIndex = 0;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(161, 54);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(288, 22);
+            this.textBox1.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(27, 44);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(33, 55);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(116, 16);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Enter card number";
+            this.label1.Size = new System.Drawing.Size(122, 18);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Enter card details";
             // 
-            // textBox1
+            // BtnBackToPay
             // 
-            this.textBox1.Location = new System.Drawing.Point(178, 44);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(306, 20);
-            this.textBox1.TabIndex = 1;
-            // 
-            // BtnGoBack
-            // 
-            this.BtnGoBack.Location = new System.Drawing.Point(4, 335);
-            this.BtnGoBack.Name = "BtnGoBack";
-            this.BtnGoBack.Size = new System.Drawing.Size(75, 23);
-            this.BtnGoBack.TabIndex = 2;
-            this.BtnGoBack.Text = "Go back";
-            this.BtnGoBack.UseVisualStyleBackColor = true;
-            this.BtnGoBack.Click += new System.EventHandler(this.BtnGoBack_Click);
+            this.BtnBackToPay.Location = new System.Drawing.Point(46, 291);
+            this.BtnBackToPay.Name = "BtnBackToPay";
+            this.BtnBackToPay.Size = new System.Drawing.Size(124, 23);
+            this.BtnBackToPay.TabIndex = 2;
+            this.BtnBackToPay.Text = "Back to checkout";
+            this.BtnBackToPay.UseVisualStyleBackColor = true;
+            this.BtnBackToPay.Click += new System.EventHandler(this.BtnBackToPay_Click);
             // 
             // UC_Pay
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.BtnBackToPay);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.textBox1);
             this.Name = "UC_Pay";
             this.Size = new System.Drawing.Size(628, 397);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button BtnGoBack;
+        private System.Windows.Forms.Button BtnBackToPay;
     }
 }
