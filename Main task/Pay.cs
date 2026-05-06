@@ -34,5 +34,10 @@ namespace Main_task
             this.Owner.Show();
             this.Close();
         }
+
+        private void btnPurchase_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

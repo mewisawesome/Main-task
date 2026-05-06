@@ -40,6 +40,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.btnPurchase = new System.Windows.Forms.Button();
             this.pnlPay.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -47,6 +48,7 @@
             // pnlPay
             // 
             this.pnlPay.BackColor = System.Drawing.Color.DarkGray;
+            this.pnlPay.Controls.Add(this.btnPurchase);
             this.pnlPay.Controls.Add(this.label3);
             this.pnlPay.Controls.Add(this.textBox3);
             this.pnlPay.Controls.Add(this.textBox2);
@@ -172,6 +174,16 @@
             this.label3.TabIndex = 10;
             this.label3.Text = "Enter card expiry date";
             // 
+            // btnPurchase
+            // 
+            this.btnPurchase.Location = new System.Drawing.Point(631, 397);
+            this.btnPurchase.Name = "btnPurchase";
+            this.btnPurchase.Size = new System.Drawing.Size(117, 23);
+            this.btnPurchase.TabIndex = 11;
+            this.btnPurchase.Text = "Purchase your order ";
+            this.btnPurchase.UseVisualStyleBackColor = true;
+            this.btnPurchase.Click += new System.EventHandler(this.btnPurchase_Click);
+            // 
             // Pay
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -201,5 +213,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Button btnPurchase;
     }
 }
