@@ -170,12 +170,13 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(288, 28);
+            this.label5.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(261, 22);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(262, 39);
+            this.label5.Size = new System.Drawing.Size(327, 73);
             this.label5.TabIndex = 4;
-            this.label5.Text = "Company name\r\n";
+            this.label5.Text = "Holy Chip!";
             // 
             // Form1
             // 
