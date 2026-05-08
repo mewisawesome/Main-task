@@ -17,16 +17,9 @@ namespace Main_task
             InitializeComponent();
         }
 
-        private void groupBox1_Enter(object sender, EventArgs e)
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
-
-        private void textID_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-     
     }
 }
