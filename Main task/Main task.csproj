@@ -70,6 +70,12 @@
     <Compile Include="PayArea.Designer.cs">
       <DependentUpon>PayArea.cs</DependentUpon>
     </Compile>
+    <Compile Include="Purchase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Purchase.Designer.cs">
+      <DependentUpon>Purchase.cs</DependentUpon>
+    </Compile>
     <Compile Include="UC_AllProducts.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -125,6 +131,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PayArea.resx">
       <DependentUpon>PayArea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Purchase.resx">
+      <DependentUpon>Purchase.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UC_AllProducts.resx">
       <DependentUpon>UC_AllProducts.cs</DependentUpon>

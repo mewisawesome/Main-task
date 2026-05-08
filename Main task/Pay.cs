@@ -37,7 +37,17 @@ namespace Main_task
 
         private void btnPurchase_Click(object sender, EventArgs e)
         {
-
+            ShowScreen(new Purchase());
+        }
+        private void ShowScreen(UserControl newScreen)
+        {
+            foreach (Control ctrl in pnlPay.Controls)
+            {
+                ctrl.Dispose();
+            }
+            pnlPay.Controls.Clear();
+            newScreen.Dock = DockStyle.Fill;
+            pnlPay.Controls.Add(newScreen);
         }
     }
 }

@@ -33,16 +33,16 @@
             this.btnProducts = new System.Windows.Forms.Button();
             this.btnHome = new System.Windows.Forms.Button();
             this.pnlContent = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.pnlContent.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -105,6 +105,36 @@
             this.pnlContent.TabIndex = 1;
             this.pnlContent.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.panel3.Controls.Add(this.label4);
+            this.panel3.Controls.Add(this.label3);
+            this.panel3.Location = new System.Drawing.Point(7, 263);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(670, 280);
+            this.panel3.TabIndex = 3;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(106, 72);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(403, 15);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "More random stuff that people might care about that doesnt go on forever\r\n";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(137, 14);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(345, 39);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "What we recommend";
+            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
@@ -135,36 +165,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "About us";
             // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.panel3.Controls.Add(this.label4);
-            this.panel3.Controls.Add(this.label3);
-            this.panel3.Location = new System.Drawing.Point(7, 263);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(670, 280);
-            this.panel3.TabIndex = 3;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(106, 72);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(403, 15);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "More random stuff that people might care about that doesnt go on forever\r\n";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(151, 14);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(315, 39);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "What we recomend";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -178,10 +178,10 @@
             this.Text = "Main page";
             this.panel1.ResumeLayout(false);
             this.pnlContent.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
 
         }
