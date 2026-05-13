@@ -40,9 +40,24 @@ namespace Main_task
                     }
                 }
             }
-
+            return products;
 
 
         }
+        public static void SaveToCSV(string filePath, List<Products> products)
+        {
+            using (StreamWriter writer = new StreamWriter(filePath))
+            {
+                writer.WriteLine("ID,Name,ProductBrand,Price,Quantity");
+            }
+            foreach (var p in products)
+            {
+             
+                string line = $"{p.ID},{p.Name},{p.Brand},{p.Price * 100},{p.Quantity}";
+                writer.WriteLine(line);
+            }
+
+        }
+
     }
 }
