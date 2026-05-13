@@ -31,6 +31,7 @@ namespace Main_task
             {
                 _inventoryList.Add(item);
             }
+            dataGridView2.DataSource = _inventoryList;
         }
     }
 }
