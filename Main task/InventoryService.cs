@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace Main_task
 {
@@ -24,15 +25,15 @@ namespace Main_task
                 {
                     try
                     {
-                        int ID = int.Parse(parts[0]);
-                        string Name = parts[1];
-                        string Brand = parts[2];
-                        decimal Price = decimal.Parse(parts[3]);
+                        int id = int.Parse(parts[0]);
+                        string name = parts[1];
+                        string brand = parts[2];
+                        decimal price = decimal.Parse(parts[3]);
 
 
-                        int Quantity = 0;
+                        int quantity = 0;
 
-                        products.Add(new Product(ID, Name, Brand, Price, Quantity));
+                        products.Add(new Product(id, name, brand, price, quantity));
                     }
                     catch
                     {
@@ -44,17 +45,18 @@ namespace Main_task
 
 
         }
-        public static void SaveToCSV(string filePath, List<Products> products)
+        public static void SaveToCSV(string filePath, List<Product>  products)
         {
             using (StreamWriter writer = new StreamWriter(filePath))
             {
-                writer.WriteLine("ID,Name,ProductBrand,Price,Quantity");
-            }
-            foreach (var p in products)
-            {
-                // Converts price back to cents for storage and includes quantity
-                string line = $"{p.ProductID},{p.ProductName},{p.ProductBrand},{p.ProductPrice * 100},{p.ProductQuantity}";
-                writer.WriteLine(line);
+                writer.WriteLine("ID,Name,Brand,Price,Quantity");
+
+                foreach (var p in products)
+                {
+                    // Converts price back to cents for storage and includes quantity
+                    string line = $"{p.ProductID},{p.ProductName},{p.ProductBrand},{p.ProductPrice * 100},{p.ProductQuantity}";
+                    writer.WriteLine(line);
+                }
             }
 
         }
