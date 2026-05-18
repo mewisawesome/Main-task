@@ -45,6 +45,7 @@
             this.Product = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Price = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Quantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -58,11 +59,12 @@
             this.Brand,
             this.Product,
             this.ID,
-            this.Price});
+            this.Price,
+            this.Quantity});
             this.dataGridView1.Location = new System.Drawing.Point(210, 14);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(445, 376);
+            this.dataGridView1.Size = new System.Drawing.Size(546, 376);
             this.dataGridView1.TabIndex = 3;
             // 
             // groupBox1
@@ -208,6 +210,13 @@
             this.Price.Name = "Price";
             this.Price.ReadOnly = true;
             // 
+            // Quantity
+            // 
+            this.Quantity.DataPropertyName = "Quantity1";
+            this.Quantity.HeaderText = "Quantity";
+            this.Quantity.Name = "Quantity";
+            this.Quantity.ReadOnly = true;
+            // 
             // UC_AllProducts
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -215,7 +224,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.groupBox1);
             this.Name = "UC_AllProducts";
-            this.Size = new System.Drawing.Size(726, 477);
+            this.Size = new System.Drawing.Size(763, 477);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -242,5 +251,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Product;
         private System.Windows.Forms.DataGridViewTextBoxColumn ID;
         private System.Windows.Forms.DataGridViewTextBoxColumn Price;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Quantity;
     }
 }
