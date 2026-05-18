@@ -37,6 +37,6 @@ namespace Main_task
             // 3. Bind the BindingList to the grid
             dataGridView1.DataSource = _inventoryList;
         }
-
+        //67
     }
 }
