@@ -54,7 +54,7 @@ namespace Main_task
                 foreach (var p in products)
                 {
                     // Converts price back to cents for storage and includes quantity
-                    string line = $"{p.ProductID},{p.ProductName},{p.ProductBrand},{p.ProductPrice * 100},{p.ProductQuantity}";
+                    string line = $"{p.ID1},{p.Name1},{p._brand},{p.Price1 * 100},{p.Quantity1}";
                     writer.WriteLine(line);
                 }
             }
