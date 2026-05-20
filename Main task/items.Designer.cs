@@ -41,6 +41,7 @@
             // 
             this.dataGridView2.AllowUserToAddRows = false;
             this.dataGridView2.AllowUserToDeleteRows = false;
+            this.dataGridView2.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ID,
@@ -48,7 +49,7 @@
             this.Brand,
             this.Price,
             this.Quantity});
-            this.dataGridView2.Location = new System.Drawing.Point(194, 78);
+            this.dataGridView2.Location = new System.Drawing.Point(17, 16);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.ReadOnly = true;
             this.dataGridView2.Size = new System.Drawing.Size(545, 391);
@@ -56,35 +57,35 @@
             // 
             // ID
             // 
-            this.ID.DataPropertyName = "ID1";
+            this.ID.DataPropertyName = "ProductID";
             this.ID.HeaderText = "ID";
             this.ID.Name = "ID";
             this.ID.ReadOnly = true;
             // 
             // Name1
             // 
-            this.Name1.DataPropertyName = "Name1";
+            this.Name1.DataPropertyName = "ProductName";
             this.Name1.HeaderText = "Name";
             this.Name1.Name = "Name1";
             this.Name1.ReadOnly = true;
             // 
             // Brand
             // 
-            this.Brand.DataPropertyName = "_brand";
+            this.Brand.DataPropertyName = "ProductBrand";
             this.Brand.HeaderText = "Brand";
             this.Brand.Name = "Brand";
             this.Brand.ReadOnly = true;
             // 
             // Price
             // 
-            this.Price.DataPropertyName = "Price1";
+            this.Price.DataPropertyName = "ProductPrice";
             this.Price.HeaderText = "Price";
             this.Price.Name = "Price";
             this.Price.ReadOnly = true;
             // 
             // Quantity
             // 
-            this.Quantity.DataPropertyName = "Quantity1";
+            this.Quantity.DataPropertyName = "ProductQuantity";
             this.Quantity.HeaderText = "Quantity";
             this.Quantity.Name = "Quantity";
             this.Quantity.ReadOnly = true;
@@ -103,12 +104,11 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.DataGridViewTextBoxColumn ID;
         private System.Windows.Forms.DataGridViewTextBoxColumn Name1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Brand;
         private System.Windows.Forms.DataGridViewTextBoxColumn Price;
         private System.Windows.Forms.DataGridViewTextBoxColumn Quantity;
+        public System.Windows.Forms.DataGridView dataGridView2;
     }
 }

@@ -15,7 +15,7 @@ namespace Main_task
         private BindingList<Product> _inventoryList = new BindingList<Product>();
         private BindingSource _bindingSource = new BindingSource();
 
-        string filePath = "./bookshelf.csv";
+        string filePath = "./book.csv";
         public UC_AllProducts()
         {
             InitializeComponent();
@@ -35,8 +35,8 @@ namespace Main_task
             }
 
             // 3. Bind the BindingList to the grid
-            dataGridView1.DataSource = _inventoryList;
+            dataGridView2.DataSource = _inventoryList;
         }
-        //67
+        
     }
 }

@@ -15,7 +15,7 @@ namespace Main_task
         private BindingList<Product> _inventoryList = new BindingList<Product>();
         private BindingSource _bindingSource = new BindingSource();
 
-        string filePath = "./bookshelf.csv";
+        string filePath = "./book.csv";
 
         public items()
         {
